@@ -1,4 +1,7 @@
 
+*{
+    box-sizing: border-box;
+}
 
 :root{
     --primaryColor: #804DEA;
@@ -515,13 +518,13 @@ margin:9px auto 0;
 .form-control{
     border: none;
     padding-left: 30px;
-    
 }
 input{
     height: 63px!important;
     outline: none!important;
 }
 textarea{
+    padding-top: 30px!important;
     height: 169px!important;
 }
 
@@ -533,6 +536,57 @@ textarea{
     font-weight: normal;
     font-size: 24px;
     line-height: 180%;
+}
+
+
+.form-control::placeholder{
+    color: var(--tertiaryColor);
+    opacity: 0.5;
+}
+
+.form-control::-moz-placeholder{
+color: var(--tertiaryColor);
+opacity: 0.5;
+}
+
+.form-control::-webkit-input-placeholder{
+    color: var(--tertiaryColor);
+    opacity: 0.5;
+}
+
+.contact-right{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.contact-content{
+    width: 219px;
+    margin-left: 28.37px;
+}
+
+.contact-content h5{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130.19%;
+    /* width: 94px; */
+    height: 31px;
+    color: var(--secondaryColor);
+}
+
+.contact-content p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 170%;
+    width: 219px;
+    height: 62px;
+    color: var(--tertiaryColor);
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
@@ -548,6 +602,8 @@ textarea{
    main .container{
         padding-left: 0px;
         padding-right: 0px;
+        margin-right: -20px;
+        margin-left: 0px;
     }
 
     .hero-left h1{
@@ -574,6 +630,13 @@ textarea{
          font-size: 18px;
          display: block;
      }
+
+.contactus button{
+    width: 226px;
+    height: 48px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
 
     .hero-right{
         display: none;
@@ -616,7 +679,7 @@ textarea{
         -moz-border-radius: 10px;
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
-        width: 320px;
+        width: 330px;
         margin-left: 15px;
     }
 
@@ -648,7 +711,7 @@ textarea{
     }
 
         .models .model .card{
-            width: 320px;
+            width: 330px;
         }
 
         .models .model .card-body{
