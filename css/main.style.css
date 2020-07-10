@@ -442,10 +442,6 @@ figure figcaption{
     width: 85vw;
 }
 
-.testimony{
-    
-}
-
 .testimony-text{
     width: 690px;
     height: 68px;
@@ -601,8 +597,40 @@ opacity: 0.5;
 
 }
 
+
+.footer-links{
+    width: 65%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-direction: row;
+    margin: 40px auto 0;
+}
+
+
+.footer-links a{
+   
+    text-decoration: none;
+    color: var(--secondaryColor);
+}
+
+.footer-links a + a{
+    /* display: inline-block;
+    margin-left: 82px; */
+}
+
 .footer-socials svg{
     margin-left: 28.73px;
+}
+
+.divider{
+    height: 1px;
+    background-color: var(--secondaryColor);
+    margin: 20px auto;
+}
+
+.footer-copy{
+    margin-top: 20px;
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
@@ -611,6 +639,12 @@ opacity: 0.5;
         margin-left: 0;
     }
 
+    .footer-links {
+        flex-direction: column;
+    }
+    .footer-links a{
+        margin-bottom: 15px;
+    }
    
    main .container{
         padding-left: 0px;
