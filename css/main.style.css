@@ -1,7 +1,10 @@
 
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
+
 
 :root{
     --primaryColor: #804DEA;
@@ -454,7 +457,7 @@ figure figcaption{
 }
 
 .testifier{
-    width: 236px;
+    /* width: 236px; */
     height: 31px;
 font-family: Roboto;
 font-style: normal;
@@ -614,11 +617,6 @@ opacity: 0.5;
     color: var(--secondaryColor);
 }
 
-.footer-links a + a{
-    /* display: inline-block;
-    margin-left: 82px; */
-}
-
 .footer-socials svg{
     margin-left: 28.73px;
 }
@@ -630,6 +628,12 @@ opacity: 0.5;
 }
 
 .footer-copy{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 165.19%;
+    color: var(--tertiaryColor);
     margin-top: 20px;
 }
 /* Extra Small Devices, Phones */
@@ -644,6 +648,11 @@ opacity: 0.5;
     }
     .footer-links a{
         margin-bottom: 15px;
+    }
+
+    .footer-copy{
+        font-size: 12px;
+        line-height: 165.19%;
     }
    
    main .container{
@@ -801,7 +810,7 @@ opacity: 0.5;
 }
 
 .testifier {
-    width: 171px;
+    /* width: 171px; */
     height: 22px;
     font-size: 13px;
     line-height: 170%;
