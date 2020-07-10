@@ -588,6 +588,22 @@ opacity: 0.5;
     height: 62px;
     color: var(--tertiaryColor);
 }
+
+.footer{
+    width: 100%;
+    background-color: var(--cardBody);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 10px 10px;
+
+}
+
+.footer-socials svg{
+    margin-left: 28.73px;
+}
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
     .row{
@@ -595,10 +611,7 @@ opacity: 0.5;
         margin-left: 0;
     }
 
-    .professional, .blogs, .model-rate{
-        /* padding: 0px 15px; */
-    }
-
+   
    main .container{
         padding-left: 0px;
         padding-right: 0px;
@@ -672,6 +685,10 @@ opacity: 0.5;
         display: none;
     }
 
+    .model .card-text~div{
+        margin-right: 15px;
+    }
+
     .professional .card-body{
         align-items: center;
         border-radius: 10px;
@@ -693,22 +710,22 @@ opacity: 0.5;
         text-align: center;
     }
 
-    .professional .card-body .card-text {
-        width: 263px;
-        height: 75px;
-        font-size: 14px;
-        line-height: 180.5%;
-        text-align: center;
-    }
+        .professional .card-body .card-text {
+            width: 263px;
+            height: 75px;
+            font-size: 14px;
+            line-height: 180.5%;
+            text-align: center;
+        }
 
-    .model-rate .models{
-        width: 100vw;
-        margin-left: 15px;
-    }
-    .model-rate button,
-    .professional button{
-        margin: 15px auto;
-    }
+        .model-rate .models{
+            width: 100vw;
+            margin-left: 15px;
+        }
+        .model-rate button,
+        .professional button{
+            margin: 15px auto;
+        }
 
         .models .model .card{
             width: 330px;
