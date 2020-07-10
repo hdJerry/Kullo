@@ -57,7 +57,7 @@
 ### Kullo Logo
 
 ```html
-    <a class="navbar-brand" href="index.html">
+<a class="navbar-brand" href="index.html">
     <img src="./assets/images/logo/kullo.jpg" alt="Kullo Logo">
 </a>
 ```
@@ -72,5 +72,15 @@
 --tertiaryColor: #8A879F;
 --cardBody: #F8F4F4;
 }
+
+```
+
+
+### Media Query
+
+```css
+ /* Extra Small Devices, Phone */
+
+@media only screen and (max-width : 480px) {}
 
 ```
