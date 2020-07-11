@@ -83,6 +83,19 @@ Kullo live URL is on  [Kullo Live](https://hdjerry.github.io/Kullo)
 
 @media only screen and (max-width : 480px) {}
 
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {}
+
+
+/* Ipad Pro */
+
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {}
+
 ```
 
 ### 
