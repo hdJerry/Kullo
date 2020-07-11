@@ -9,6 +9,10 @@
     margin-bottom: 3.5rem;
 }
 
+body, html{
+    overflow-x: hidden;
+}
+
 
 :root{
     --primaryColor: #804DEA;
@@ -700,8 +704,8 @@ opacity: 0.5;
    main .container{
         padding-left: 0px;
         padding-right: 0px;
-        margin-right: -20px;
-        margin-left: 0px;
+        /* margin-right: -20px;
+        margin-left: 0px; */
     }
 
     .hero-left h1{
@@ -758,7 +762,7 @@ opacity: 0.5;
     }
 
     .varieties{
-        margin-left: 15px;
+        margin-left: 10px;
     }
 
     .variety{
@@ -781,9 +785,9 @@ opacity: 0.5;
         margin-right: 15px;
     }
 
-    .professional{
+    /* .professional{
         margin-left: 10px;
-    }
+    } */
 
     .professional .card-body{
         align-items: center;
@@ -814,9 +818,9 @@ opacity: 0.5;
             text-align: center;
         }
 
-        .model-rate{
+        /* .model-rate{
             margin-left: 10px;
-        }
+        } */
 
         .model-rate .models{
             width: 100vw;
@@ -874,9 +878,9 @@ opacity: 0.5;
     margin: 5px auto 0;
 }
 
-.blogs{
+/* .blogs{
     margin-left: 10px;
-}
+} */
 
 .blogs .card-title {
     width: 205px;
