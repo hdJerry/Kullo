@@ -69,7 +69,7 @@ button{
 
 .hero{
     background-color: #fff;
-    margin-top: 83.92px;
+    margin-top: 100px;
 }
 
 .card{
@@ -112,13 +112,13 @@ button{
 }
 
 .hero-right .image-bg{
-    height: 400.65px;
-    background-color: var(--primaryColor);
-        border-radius: 10px;
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        -ms-border-radius: 10px;
-        -o-border-radius: 10px;
+        height: 400.65px;
+        background-color: var(--primaryColor);
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
         position: relative;
         text-align: center;
 }
@@ -169,13 +169,21 @@ button{
     /* margin-bottom: 40px; */
 }
 
+.models .carousel-item.active{
+    /* display: flex; */
+}
+
+/* .models .carousel-item{
+    float: unset;
+} */
+
 figure img{
     width: 100%;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 
 figure figcaption{
@@ -194,36 +202,37 @@ figure figcaption{
 
 .professional{
     width: 100%;
-    margin-top: 30px;
+    margin-top: 100px;
 }
 
 .card{
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
     height: auto;
 }
 
 .professional .card-body{
-    border-radius: 0 10px 10px 0;
-    -webkit-border-radius: 0 10px 10px 0;
-    -moz-border-radius: 0 10px 10px 0;
-    -ms-border-radius: 0 10px 10px 0;
-    -o-border-radius: 0 10px 10px 0;
+    border-radius: 0 20px 20px 0;
+    -webkit-border-radius: 0 20px 20px 0;
+    -moz-border-radius: 0 20px 20px 0;
+    -ms-border-radius: 0 20px 20px 0;
+    -o-border-radius: 0 20px 20px 0;
 }
 
 .prof-img{
     background-color: var(--primaryColor);
     position: relative;
-    border-radius: 10px 0 0 10px;
-    -webkit-border-radius: 10px 0 0 10px;
-    -moz-border-radius: 10px 0 0 10px;
-    -ms-border-radius: 10px 0 0 10px;
-    -o-border-radius: 10px 0 0 10px;
+    border-radius: 20px 0 0 20px;
+    -webkit-border-radius: 20px 0 0 20px;
+    -moz-border-radius: 20px 0 0 20px;
+    -ms-border-radius: 20px 0 0 20px;
+    -o-border-radius: 20px 0 0 20px;
     text-align: center;
-    /* height: 400px; */
+    /*height: 400px;
+    */
 }
 
 .prof-img_div {
@@ -291,17 +300,30 @@ figure figcaption{
     margin-top: 100px;
 }
 
+.models .carousel-mode{
+    width: 100%;
+    float: left!important;
+      /* display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row; */
+}
+
+
+
 .model-rate .models{
     width: 84vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
+     /* display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-direction: row; */
     overflow-x: auto;
     scrollbar-width: none; /* Firefox */
      -ms-overflow-style: none;  /* Internet Explorer 10+ */
      text-align: left;
 }
+
+
 
 .models::-webkit-scrollbar {
     /* WebKit */
@@ -310,27 +332,27 @@ figure figcaption{
 }
 
 .models .model .card{
-    width: 540px;
+    width: 535px;
     margin-right: 35px;
 }
 
 .model img{
-    border-radius: 10px 10px 0 0;
-    -webkit-border-radius: 10px 10px 0 0;
-    -moz-border-radius: 10px 10px 0 0;
-    -ms-border-radius: 10px 10px 0 0;
-    -o-border-radius: 10px 10px 0 0;
+    border-radius: 20px 20px 0 0;
+    -webkit-border-radius: 20px 20px 0 0;
+    -moz-border-radius: 20px 20px 0 0;
+    -ms-border-radius: 20px 20px 0 0;
+    -o-border-radius: 20px 20px 0 0;
 }
 
 .model .card-body{
     background-color: var(--cardBody);
     color: var(--tertiaryColor);
     padding: 10px 30px;
-    border-radius: 0 0 10px 10px;
-    -webkit-border-radius: 0 0 10px 10px;
-    -moz-border-radius: 0 0 10px 10px;
-    -ms-border-radius: 0 0 10px 10px;
-    -o-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 20px 20px;
+    -webkit-border-radius: 0 0 20px 20px;
+    -moz-border-radius: 0 0 20px 20px;
+    -ms-border-radius: 0 0 20px 20px;
+    -o-border-radius: 0 0 20px 20px;
 }
 
 .model .card-title{
@@ -386,7 +408,7 @@ figure figcaption{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    margin: 20px auto;
+    margin: 60px auto -40px;
 }
 
 .slide-circles .slide-circle{
@@ -406,7 +428,7 @@ figure figcaption{
 }
 
 .testimonials{
-    margin-top: 60px;
+    margin-top: 100px;
     margin-bottom: 40px;
     text-align: center;
 }
@@ -422,12 +444,16 @@ figure figcaption{
     
 }
 
+a.slide-btn{
+    background-color: #fff !important;
+}
+
 .testimonial-slide .slide-btn{
     position: absolute;
-    top:45%;
+    top:40%;
     width: 45.34px;
     height: 34.13px;
-    background-color: #fff;
+    background-color: #fff!important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -446,7 +472,7 @@ figure figcaption{
 }
 
 .testimony-text{
-    width: 690px;
+    width: 630px;
     height: 68px;
   font-family: Roboto;
   font-style: normal;
@@ -464,19 +490,22 @@ font-style: normal;
 font-weight: 500;
 font-size: 18px;
 line-height: 170%;
-margin:9px auto 0;
+margin:9px auto 34px;
 }
 
 .blogs{
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
 .blogs h2{
     text-align: center;
 }
+.blogs .card-body{
+    padding: 40px 0 0;
+}
 
 .blogs .card-title{
-    width: 300px;
+    width: 355px;
     height: 70px;
     font-family: Roboto;
     font-style: normal;
@@ -503,6 +532,7 @@ margin:9px auto 0;
 }
 
 .contactus{
+    margin-top: 100px;
     margin-bottom: 40px;
 }
 
@@ -596,10 +626,13 @@ opacity: 0.5;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    padding: 30px 10px 10px;
+    /* padding: 60px 10px 0; */
 
 }
 
+.footer .navbar-brand{
+    margin: 60px auto 0;
+}
 
 .footer-links{
     width: 65%;
@@ -615,6 +648,11 @@ opacity: 0.5;
    
     text-decoration: none;
     color: var(--secondaryColor);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 101.19%;
 }
 
 .footer-socials svg{
@@ -624,7 +662,7 @@ opacity: 0.5;
 .divider{
     height: 1px;
     background-color: var(--secondaryColor);
-    margin: 20px auto;
+    margin: 40px auto 25px;
 }
 
 .footer-copy{
@@ -690,8 +728,10 @@ opacity: 0.5;
 .contactus button{
     width: 226px;
     height: 48px;
-    margin-bottom: 30px;
-    margin-left: 20px;
+     margin: 10px 15% 30px;
+
+    /* margin-bottom: 30px;
+    margin-left: 20px; */
 }
 
     .hero-right{
@@ -713,10 +753,15 @@ opacity: 0.5;
         margin: 20px auto;
     }
 
+    .varieties{
+        margin-left: 15px;
+    }
+
     .variety{
         width: 176px;
         min-width: 165px;
         max-width: 200px;
+        margin-right: -10px;
     }
 
     figure figcaption{
@@ -732,16 +777,20 @@ opacity: 0.5;
         margin-right: 15px;
     }
 
+    .professional{
+        margin-left: 10px;
+    }
+
     .professional .card-body{
         align-items: center;
-        border-radius: 10px;
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        -ms-border-radius: 10px;
-        -o-border-radius: 10px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
         width: 330px;
         margin-left: 15px;
-    }
+}
 
     .professional .card-body .card-title {
         width: 183px;
@@ -759,6 +808,10 @@ opacity: 0.5;
             font-size: 14px;
             line-height: 180.5%;
             text-align: center;
+        }
+
+        .model-rate{
+            margin-left: 10px;
         }
 
         .model-rate .models{
@@ -817,6 +870,10 @@ opacity: 0.5;
     margin: 5px auto 0;
 }
 
+.blogs{
+    margin-left: 10px;
+}
+
 .blogs .card-title {
     width: 205px;
     height: 56px;
@@ -831,4 +888,75 @@ opacity: 0.5;
     line-height: 194%;
 }
 
+
+
+}
+
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+   .hero-left h1{
+       font-size: 45px;
+   }
+
+   .hero-left p{
+     font-size: 20px
+   }
+
+   .hero-right .image-bg{
+       height: 345.65px;
+   }
+
+   .passport-image{
+     width: 345.65px;
+   }
+
+   .passport-image img{
+       transform: translateX(40px);
+       -webkit-transform: translateX(40px);
+       -moz-transform: translateX(40px);
+       -ms-transform: translateX(40px);
+       -o-transform: translateX(40px);
+}
+
+   .blue-circle svg{
+       width: 200px;
+       height: 210px;
+   }
+
+   .professional .card-body .card-text{
+       font-size: 21px;
+       width: 400px;
+   }
+
+   .model-rate .models{
+       width: 100vw;
+   }
+
+   .models .model .card{
+       width: 450px;
+   }
+
+   .carousel-mode{
+       /* margin-left: 50px; */
+   }
+
+   .blogs .card-title{
+       width: 300px;
+       font-size: 22px;
+   }
+
+   .blogs .card-text{
+       width: 280px;
+       font-size: 10px;
+   }
+
+   .contactus{
+       margin-top: 20px;
+   }
 }
