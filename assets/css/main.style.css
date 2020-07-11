@@ -893,13 +893,67 @@ opacity: 0.5;
 }
 
 
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+
+     .professional .card-body .card-text {
+         font-size: 18px;
+         width: 280px;
+     }
+
+     .professional .card-body .card-title{
+         width: 280px;
+         font-size: 25px;
+     }
+
+    .model-rate .models {
+        width: 100vw;
+    }
+
+    .models .model .card {
+        width: 330px;
+    }
+
+     .blogs .card-title {
+         width: 220px;
+         font-size: 18px;
+     }
+
+     .blogs .card-text {
+         width: 220px;
+         font-size: 10px;
+         margin-top: -15px;
+     }
+
+     .testimony-text{
+         width: 450px;
+         font-size: 16px;
+     }
+
+     .testimonial-slide .slide-btn.prev{
+         left: 30px;
+     }
+     .testimonial-slide .slide-btn.next{
+         right:30px;
+     }
+    
+}
+
+
+
 /*
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) {
-
+/* @media (min-width: 768px) and (max-width: 1024px) { */
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+    
    .hero-left h1{
        font-size: 45px;
    }
@@ -942,10 +996,6 @@ opacity: 0.5;
        width: 450px;
    }
 
-   .carousel-mode{
-       /* margin-left: 50px; */
-   }
-
    .blogs .card-title{
        width: 300px;
        font-size: 22px;
@@ -960,3 +1010,7 @@ opacity: 0.5;
        margin-top: 20px;
    }
 }
+
+
+
+
