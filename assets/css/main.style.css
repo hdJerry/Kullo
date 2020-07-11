@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+.mb-6{
+    margin-bottom: 3.5rem;
+}
+
 
 :root{
     --primaryColor: #804DEA;
@@ -78,7 +82,7 @@ button{
 
 
 .hero-left h1{
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 56px;
@@ -87,7 +91,7 @@ button{
 }
 
 .hero-left p{
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -103,7 +107,7 @@ button{
 
     /* Text within */
 
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -159,7 +163,7 @@ button{
 .contactus h2{ 
     width: 696px;
     height: 47px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
@@ -188,7 +192,7 @@ figure img{
 
 figure figcaption{
     margin-top: 21px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -276,7 +280,7 @@ figure figcaption{
 .professional .card-body .card-title {
     width: 324px;
     height: 100px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
@@ -286,7 +290,7 @@ figure figcaption{
 .professional .card-body .card-text {
     width: 473px;
     height: 123px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -357,7 +361,7 @@ figure figcaption{
 
 .model .card-title{
     color: var(--secondaryColor);
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
@@ -386,7 +390,7 @@ figure figcaption{
 .model button{
     width: 167.47px;
     height: 48px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -474,7 +478,7 @@ a.slide-btn{
 .testimony-text{
     width: 630px;
     height: 68px;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -485,7 +489,7 @@ a.slide-btn{
 .testifier{
     /* width: 236px; */
     height: 31px;
-font-family: Roboto;
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
@@ -507,7 +511,7 @@ margin:9px auto 34px;
 .blogs .card-title{
     width: 355px;
     height: 70px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -518,7 +522,7 @@ margin:9px auto 34px;
 .blogs .card-text {
     width: 360px;
     height: 87px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -560,7 +564,7 @@ textarea{
 .contactus button{
     width: 263px;
     height: 72px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -597,7 +601,7 @@ opacity: 0.5;
 }
 
 .contact-content h5{
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -608,7 +612,7 @@ opacity: 0.5;
 }
 
 .contact-content p{
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -648,7 +652,7 @@ opacity: 0.5;
    
     text-decoration: none;
     color: var(--secondaryColor);
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-size: 22px;
@@ -666,7 +670,7 @@ opacity: 0.5;
 }
 
 .footer-copy{
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
