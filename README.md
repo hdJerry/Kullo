@@ -83,6 +83,24 @@ Kullo live URL is on  [Kullo Live](https://hdjerry.github.io/Kullo)
 
 @media only screen and (max-width : 480px) {}
 
+/*
+weird phones like pixel2 iphone 6,7,8 with screen size between 411 and 414
+
+*/
+
+@media (min-width: 411px) and (max-width: 440px) {}
+
+
+
+/* iPhone X Portrait */
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) and (orientation : portrait) {}
+
+
+
+/* iPhone X Landscape */
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) and (orientation : landscape) {}
+
 
 /*
   ##Device = Tablets, Ipads (landscape)

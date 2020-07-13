@@ -693,7 +693,7 @@ opacity: 0.5;
         flex-direction: column;
     }
     .footer-links a{
-        margin-bottom: 15px;
+        margin-bottom: 30px;
     }
 
     .footer-copy{
@@ -890,7 +890,7 @@ opacity: 0.5;
 }
 
 .blogs .card-text{
-    width: 278px;
+    width: 330px;
     height: 81px;
     font-size: 14px;
     line-height: 194%;
@@ -903,11 +903,128 @@ opacity: 0.5;
 
 
 /*
+weird phones like pixel2 iphone 6,7,8 with screen size between 411 and 414
+
+*/
+
+@media (min-width: 411px) and (max-width: 440px) {
+  
+
+      .varieties {
+          margin-left: 10px;
+      }
+
+      .variety{
+          width: 200px;
+      }
+
+      .professional .card-body{
+          width: 350px;
+      }
+      .professional {
+          margin-left: 15px;
+      }
+
+       .models .model .card {
+           width: 350px;
+       }
+
+      .model-rate .slide {
+          margin-left: 15px;
+      }
+
+      .blogs .card-text {
+          width: 400px;
+      }
+}
+
+
+/* iPhone X Portrait */
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) and (orientation : portrait) {
+    
+    .varieties{
+        margin-left: 15px;
+    }
+
+    .professional{
+        margin-left: 6px;
+    }
+
+    .model-rate .slide{
+        margin-left: 6px;
+    }
+
+}
+
+
+/* iPhone X Landscape */
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) and (orientation : landscape) {
+
+  
+
+    .professional .card-body .card-text {
+        font-size: 18px;
+        width: 280px;
+    }
+
+    .professional .card-body .card-title {
+        width: 280px;
+        font-size: 25px;
+    }
+
+    .model-rate .models {
+        width: 100vw;
+    }
+
+    .models .model .card {
+        width: 330px;
+    }
+
+    .blogs .card-title {
+        width: 220px;
+        font-size: 18px;
+    }
+
+    .blogs .card-text {
+        width: 220px;
+        font-size: 10px;
+        margin-top: -15px;
+    }
+
+     .testimony-text {
+         width: 450px;
+         font-size: 16px;
+     }
+
+     .testimonial-slide .slide-btn.prev {
+         left: 30px;
+     }
+
+     .testimonial-slide .slide-btn.next {
+         right: 30px;
+     }
+
+}
+
+
+
+
+/*
   ##Device = Tablets, Ipads (landscape)
   ##Screen = B/w 768px to 1024px
 */
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+
+           .hero-left h1 {
+               font-size: 45px;
+           }
+
+           .hero-left p {
+               font-size: 20px
+           }
+
 
      .professional .card-body .card-text {
          font-size: 18px;
@@ -954,6 +1071,7 @@ opacity: 0.5;
 
 
 
+
 /*
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
@@ -961,7 +1079,7 @@ opacity: 0.5;
 
 /* @media (min-width: 768px) and (max-width: 1024px) { */
 @media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
-    
+   
    .hero-left h1{
        font-size: 45px;
    }
